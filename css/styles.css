@@ -1,0 +1,91 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+#login {
+  background: linear-gradient(120deg, #4c79d3 44.9%, #fff 45%) no-repeat fixed;
+}
+#app {
+  background: linear-gradient(120deg, white 44.9%, #4c79d3 45%) no-repeat fixed;
+}
+.color-primary {
+  color: #4e0070;
+}
+.color-secondary {
+  color: #4c79d3;
+}
+.icon-detail {
+  font-size: 50px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.info {
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  padding: 20px 0px 0px 0px;
+}
+.button-default {
+  border-radius: 10px;
+  background-color: #4e0070;
+  color: white;
+}
+.button-cancel {
+  border-radius: 10px;
+}
+.button-float {
+  border: 2px solid #4e0070;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  padding: 0 !important;
+  bottom: 1rem;
+  right: 2rem;
+  font-size: 35px;
+  background-color: #4e0070;
+  color: white;
+}
+.button-float:hover {
+  border: 2px solid #4c79d3;
+  background-color: #fff;
+  color: #4e0070;
+}
+.text-login {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.coins {
+  position: absolute;
+  bottom: 100px;
+}
+.button-login {
+  border: none;
+  border-radius: 10px;
+  background-color: #4e0070;
+  color: white;
+  width: 50%;
+  margin: 0 25%;
+}
+.button-login:hover,
+.button-default:hover {
+  background-color: #4c79d3;
+}
+
+.link-default {
+  color: #4e0070;
+  cursor: pointer;
+}
+.link-default:hover {
+  color: #4c79d3;
+}
+header {
+  border-bottom: 1px solid #bebcbc;
+  padding: 5px;
+  background-color: white;
+}
+
+.logout {
+  min-width: 5rem !important;
+}
+.menu {
+  margin-right: 20px;
+}
